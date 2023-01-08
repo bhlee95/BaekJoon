@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        int N = sc.nextInt();           // 배열의 수 입력
+        int N = br.readline();           // 배열의 수 입력
         int[] A = new int[N];           // 입력 받은 배열 수 만큼 배열 생성
         int[] B = new int[N];
       
